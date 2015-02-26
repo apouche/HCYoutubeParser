@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A87B571A9FBF0A008BD06B /* HCYoutubeParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04A87B561A9FBF0A008BD06B /* HCYoutubeParser.h */; };
+		04A87B591A9FBF0A008BD06B /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A87B581A9FBF0A008BD06B /* HCYoutubeParser.m */; };
+		04A87B5F1A9FBF0A008BD06B /* libHCYoutubeParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A87B531A9FBF0A008BD06B /* libHCYoutubeParser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A87B601A9FBF0A008BD06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A87B4B1A9FBF0A008BD06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A87B521A9FBF0A008BD06B;
+			remoteInfo = HCYoutubeParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A87B511A9FBF0A008BD06B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				04A87B571A9FBF0A008BD06B /* HCYoutubeParser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A87B531A9FBF0A008BD06B /* libHCYoutubeParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHCYoutubeParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A87B561A9FBF0A008BD06B /* HCYoutubeParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
+		04A87B581A9FBF0A008BD06B /* HCYoutubeParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
+		04A87B5E1A9FBF0A008BD06B /* HCYoutubeParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCYoutubeParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A87B641A9FBF0A008BD06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A87B501A9FBF0A008BD06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A87B5B1A9FBF0A008BD06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A87B5F1A9FBF0A008BD06B /* libHCYoutubeParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A87B4A1A9FBF0A008BD06B = {
+			isa = PBXGroup;
+			children = (
+				04A87B551A9FBF0A008BD06B /* HCYoutubeParser */,
+				04A87B621A9FBF0A008BD06B /* HCYoutubeParserTests */,
+				04A87B541A9FBF0A008BD06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A87B541A9FBF0A008BD06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A87B531A9FBF0A008BD06B /* libHCYoutubeParser.a */,
+				04A87B5E1A9FBF0A008BD06B /* HCYoutubeParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A87B551A9FBF0A008BD06B /* HCYoutubeParser */ = {
+			isa = PBXGroup;
+			children = (
+				04A87B561A9FBF0A008BD06B /* HCYoutubeParser.h */,
+				04A87B581A9FBF0A008BD06B /* HCYoutubeParser.m */,
+			);
+			path = HCYoutubeParser;
+			sourceTree = "<group>";
+		};
+		04A87B621A9FBF0A008BD06B /* HCYoutubeParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A87B631A9FBF0A008BD06B /* Supporting Files */,
+			);
+			path = HCYoutubeParserTests;
+			sourceTree = "<group>";
+		};
+		04A87B631A9FBF0A008BD06B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A87B641A9FBF0A008BD06B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A87B521A9FBF0A008BD06B /* HCYoutubeParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A87B671A9FBF0A008BD06B /* Build configuration list for PBXNativeTarget "HCYoutubeParser" */;
+			buildPhases = (
+				04A87B4F1A9FBF0A008BD06B /* Sources */,
+				04A87B501A9FBF0A008BD06B /* Frameworks */,
+				04A87B511A9FBF0A008BD06B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCYoutubeParser;
+			productName = HCYoutubeParser;
+			productReference = 04A87B531A9FBF0A008BD06B /* libHCYoutubeParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04A87B5D1A9FBF0A008BD06B /* HCYoutubeParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A87B6A1A9FBF0A008BD06B /* Build configuration list for PBXNativeTarget "HCYoutubeParserTests" */;
+			buildPhases = (
+				04A87B5A1A9FBF0A008BD06B /* Sources */,
+				04A87B5B1A9FBF0A008BD06B /* Frameworks */,
+				04A87B5C1A9FBF0A008BD06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A87B611A9FBF0A008BD06B /* PBXTargetDependency */,
+			);
+			name = HCYoutubeParserTests;
+			productName = HCYoutubeParserTests;
+			productReference = 04A87B5E1A9FBF0A008BD06B /* HCYoutubeParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A87B4B1A9FBF0A008BD06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					04A87B521A9FBF0A008BD06B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04A87B5D1A9FBF0A008BD06B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A87B4E1A9FBF0A008BD06B /* Build configuration list for PBXProject "HCYoutubeParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04A87B4A1A9FBF0A008BD06B;
+			productRefGroup = 04A87B541A9FBF0A008BD06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A87B521A9FBF0A008BD06B /* HCYoutubeParser */,
+				04A87B5D1A9FBF0A008BD06B /* HCYoutubeParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A87B5C1A9FBF0A008BD06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A87B4F1A9FBF0A008BD06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A87B591A9FBF0A008BD06B /* HCYoutubeParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A87B5A1A9FBF0A008BD06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A87B611A9FBF0A008BD06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A87B521A9FBF0A008BD06B /* HCYoutubeParser */;
+			targetProxy = 04A87B601A9FBF0A008BD06B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A87B651A9FBF0A008BD06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A87B661A9FBF0A008BD06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A87B681A9FBF0A008BD06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04A87B691A9FBF0A008BD06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		04A87B6B1A9FBF0A008BD06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HCYoutubeParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A87B6C1A9FBF0A008BD06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HCYoutubeParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A87B4E1A9FBF0A008BD06B /* Build configuration list for PBXProject "HCYoutubeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A87B651A9FBF0A008BD06B /* Debug */,
+				04A87B661A9FBF0A008BD06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A87B671A9FBF0A008BD06B /* Build configuration list for PBXNativeTarget "HCYoutubeParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A87B681A9FBF0A008BD06B /* Debug */,
+				04A87B691A9FBF0A008BD06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A87B6A1A9FBF0A008BD06B /* Build configuration list for PBXNativeTarget "HCYoutubeParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A87B6B1A9FBF0A008BD06B /* Debug */,
+				04A87B6C1A9FBF0A008BD06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A87B4B1A9FBF0A008BD06B /* Project object */;
+}
