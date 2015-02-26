@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04A87B521A9FBF0A008BD06B"
-               BuildableName = "libHCYoutubeParser.a"
+               BlueprintIdentifier = "0424392C1A9FC8B4001E61F9"
+               BuildableName = "HCYoutubeParser.framework"
                BlueprintName = "HCYoutubeParser"
                ReferencedContainer = "container:HCYoutubeParser.xcodeproj">
             </BuildableReference>
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04A87B5D1A9FBF0A008BD06B"
+               BlueprintIdentifier = "042439361A9FC8B4001E61F9"
                BuildableName = "HCYoutubeParserTests.xctest"
                BlueprintName = "HCYoutubeParserTests"
                ReferencedContainer = "container:HCYoutubeParser.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04A87B5D1A9FBF0A008BD06B"
+               BlueprintIdentifier = "042439361A9FC8B4001E61F9"
                BuildableName = "HCYoutubeParserTests.xctest"
                BlueprintName = "HCYoutubeParserTests"
                ReferencedContainer = "container:HCYoutubeParser.xcodeproj">
@@ -56,8 +56,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04A87B521A9FBF0A008BD06B"
-            BuildableName = "libHCYoutubeParser.a"
+            BlueprintIdentifier = "0424392C1A9FC8B4001E61F9"
+            BuildableName = "HCYoutubeParser.framework"
             BlueprintName = "HCYoutubeParser"
             ReferencedContainer = "container:HCYoutubeParser.xcodeproj">
          </BuildableReference>
@@ -75,8 +75,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04A87B521A9FBF0A008BD06B"
-            BuildableName = "libHCYoutubeParser.a"
+            BlueprintIdentifier = "0424392C1A9FC8B4001E61F9"
+            BuildableName = "HCYoutubeParser.framework"
             BlueprintName = "HCYoutubeParser"
             ReferencedContainer = "container:HCYoutubeParser.xcodeproj">
          </BuildableReference>
@@ -93,8 +93,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "04A87B521A9FBF0A008BD06B"
-            BuildableName = "libHCYoutubeParser.a"
+            BlueprintIdentifier = "0424392C1A9FC8B4001E61F9"
+            BuildableName = "HCYoutubeParser.framework"
             BlueprintName = "HCYoutubeParser"
             ReferencedContainer = "container:HCYoutubeParser.xcodeproj">
          </BuildableReference>
